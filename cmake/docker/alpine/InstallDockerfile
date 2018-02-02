@@ -1,0 +1,6 @@
+FROM alpine:latest
+LABEL maintainer="corentinl@google.com"
+
+RUN apk add --no-cache git build-base cmake
+COPY build/alpine/install /
+COPY test/config /project
