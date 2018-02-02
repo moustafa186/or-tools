@@ -65,7 +65,7 @@ include(csharp)
 
 if(BUILD_TESTING)
 	add_subdirectory(examples/cpp)
-	add_subdirectory(examples/data)
+	#add_subdirectory(examples/data)
 	add_subdirectory(examples/python)
 	add_subdirectory(examples/notebook)
 endif()
